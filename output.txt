@@ -1,0 +1,327 @@
+########## Agreement ###########
+Agreement between  Opinion Lexicon  and  SentiLex  : 93.68% out of 17087 entries
+Agreement between  Liwc  and  Opinion Lexicon  : 35.07% out of 9810 entries
+Agreement between  Liwc  and  SentiLex  : 33.03% out of 20282 entries
+########### Polar Agreement #############
+Agreement between  Opinion Lexicon  and  SentiLex  : 97.04% out of 13880 entries
+Agreement between  Liwc  and  Opinion Lexicon  : 80.17% out of 1871 entries
+Agreement between  Liwc  and  SentiLex  : 74.83% out of 7310 entries
+
+
+AGREEMENT EXAMPLES (OpinionLexicon)
+pol word
+1   acreditada
+1   acreditado
+1   adequada
+1   adoradas
+-1  aterrorizados
+1   elogiar
+1   esperados
+1   honestas
+-1  inimigos
+-1  insegura
+-1  lesar
+-1  lesas
+-1  necessitadas
+-1  perverter
+1   relaxar
+-1  reprimidas
+-1  surpreendidas
+-1  tremida
+-1  tremido
+1   vivificar
+
+
+DISAGREEMENT EXAMPLES (OpinionLexicon)
+lwic    oplex   word
+1   -1  abismais
+1   -1  animais
+-1  1   ansiar
+1   -1  apoiados
+1   -1  atraídas
+1   -1  bobos
+1   -1  deleitada
+1   -1  deleitadas
+1   -1  deleitados
+-1  1   destinados
+-1  1   detestar
+1   -1  emocionadas
+-1  1   enganada
+1   -1  entretido
+1   -1  esquentada
+1   -1  esquentado
+-1  1   falsificadas
+-1  1   ferida
+-1  1   folgar
+1   -1  fortuita
+1   -1  gerar
+-1  1   grave
+1   -1  guardada
+1   -1  guardado
+1   -1  guardados
+-1  1   impessoal
+-1  1   implorar
+-1  1   invejar
+1   -1  libertar
+1   -1  licenciosa
+1   -1  louvados
+1   -1  protegidas
+-1  1   repugnar
+1   -1  resguardado
+1   -1  salvar
+1   -1  tola
+1   -1  tolo
+-1  1   tremer
+1   -1  vaga
+1   -1  vagas
+#########################################################################
+########################  Opinion  classification #######################
+#########################################################################
+Dictionary :  Liwc 
+
+   |   -         |
+   |   1   0   1 |
+---+-------------+
+-1 |<204>266 121 |
+ 0 |   .  <.>  . |
+ 1 | 106 592<973>|
+---+-------------+
+(row = reference; col = test)
+
+Accuracy:  0.520335985853
+Metrics for class  0
+Precision:  0.0
+Recall   :  None
+F_measure:  None
+Metrics for class  1
+Precision:  0.889396709324
+Recall   :  0.582286056254
+F_measure:  0.703797468354
+Metrics for class  -1
+Precision:  0.658064516129
+Recall   :  0.345177664975
+F_measure:  0.452830188679
+
+
+
+Dictionary :  Opinion Lexicon 
+
+   |   -         |
+   |   1   0   1 |
+---+-------------+
+-1 |<217>234 140 |
+ 0 |   .  <.>  . |
+ 1 | 156 589<926>|
+---+-------------+
+(row = reference; col = test)
+
+Accuracy:  0.505305039788
+Metrics for class  0
+Precision:  0.0
+Recall   :  None
+F_measure:  None
+Metrics for class  1
+Precision:  0.868667917448
+Recall   :  0.554159186116
+F_measure:  0.676653270004
+Metrics for class  -1
+Precision:  0.581769436997
+Recall   :  0.36717428088
+F_measure:  0.45020746888
+
+
+
+Dictionary :  SentiLex 
+
+   |   -         |
+   |   1   0   1 |
+---+-------------+
+-1 |<307>244  40 |
+ 0 |   .  <.>  . |
+ 1 | 121 650<900>|
+---+-------------+
+(row = reference; col = test)
+
+Accuracy:  0.533598585323
+Metrics for class  0
+Precision:  0.0
+Recall   :  None
+F_measure:  None
+Metrics for class  1
+Precision:  0.957446808511
+Recall   :  0.538599640934
+F_measure:  0.689391037917
+Metrics for class  -1
+Precision:  0.717289719626
+Recall   :  0.519458544839
+F_measure:  0.602551521099
+
+
+
+#########################################################################
+###################### Sentences classification #########################
+#########################################################################
+Dictionary :  Liwc 
+
+   |    -           |
+   |    1    0    1 |
+---+----------------+
+-1 | <131> 193  254 |
+ 0 | 1423<3038>3650 |
+ 1 |  196  658<1617>|
+---+----------------+
+(row = reference; col = test)
+
+Accuracy:  0.428853046595
+Metrics for class  0
+Precision:  0.781177680638
+Recall   :  0.37455307607
+F_measure:  0.506333333333
+Metrics for class  1
+Precision:  0.292881724325
+Recall   :  0.654390934844
+F_measure:  0.404654654655
+Metrics for class  -1
+Precision:  0.0748571428571
+Recall   :  0.226643598616
+F_measure:  0.112542955326
+
+
+
+Dictionary :  Opinion Lexicon 
+
+   |    -           |
+   |    1    0    1 |
+---+----------------+
+-1 | <187> 217  174 |
+ 0 | 1938<3361>2812 |
+ 1 |  333  879<1259>|
+---+----------------+
+(row = reference; col = test)
+
+Accuracy:  0.430734767025
+Metrics for class  0
+Precision:  0.754094682522
+Recall   :  0.414375539391
+F_measure:  0.534850413749
+Metrics for class  1
+Precision:  0.296584216726
+Recall   :  0.509510319709
+F_measure:  0.374925550923
+Metrics for class  -1
+Precision:  0.0760781122864
+Recall   :  0.323529411765
+F_measure:  0.123188405797
+
+
+
+Dictionary :  SentiLex 
+
+   |    -           |
+   |    1    0    1 |
+---+----------------+
+-1 | <279> 202   97 |
+ 0 | 2254<4031>1826 |
+ 1 |  323 1080<1068>|
+---+----------------+
+(row = reference; col = test)
+
+Accuracy:  0.481899641577
+Metrics for class  0
+Precision:  0.758705063053
+Recall   :  0.496979410677
+F_measure:  0.600566150179
+Metrics for class  1
+Precision:  0.357071213641
+Recall   :  0.432213678673
+F_measure:  0.391065543757
+Metrics for class  -1
+Precision:  0.0976890756303
+Recall   :  0.482698961938
+F_measure:  0.16249271986
+
+
+
+#########################################################################
+################### Polar Sentences classification ######################
+#########################################################################
+Dictionary :  Liwc 
+
+   |    -           |
+   |    1    0    1 |
+---+----------------+
+-1 | <131> 193  254 |
+ 0 |    .   <.>   . |
+ 1 |  196  658<1617>|
+---+----------------+
+(row = reference; col = test)
+
+Accuracy:  0.573302722204
+Metrics for class  0
+Precision:  0.0
+Recall   :  None
+F_measure:  None
+Metrics for class  1
+Precision:  0.864243719936
+Recall   :  0.654390934844
+F_measure:  0.744818056195
+Metrics for class  -1
+Precision:  0.400611620795
+Recall   :  0.226643598616
+F_measure:  0.289502762431
+
+
+
+Dictionary :  Opinion Lexicon 
+
+   |    -           |
+   |    1    0    1 |
+---+----------------+
+-1 | <187> 217  174 |
+ 0 |    .   <.>   . |
+ 1 |  333  879<1259>|
+---+----------------+
+(row = reference; col = test)
+
+Accuracy:  0.474253853723
+Metrics for class  0
+Precision:  0.0
+Recall   :  None
+F_measure:  None
+Metrics for class  1
+Precision:  0.878576413119
+Recall   :  0.509510319709
+F_measure:  0.644979508197
+Metrics for class  -1
+Precision:  0.359615384615
+Recall   :  0.323529411765
+F_measure:  0.340619307832
+
+
+
+Dictionary :  SentiLex 
+
+   |    -           |
+   |    1    0    1 |
+---+----------------+
+-1 | <279> 202   97 |
+ 0 |    .   <.>   . |
+ 1 |  323 1080<1068>|
+---+----------------+
+(row = reference; col = test)
+
+Accuracy:  0.441784191538
+Metrics for class  0
+Precision:  0.0
+Recall   :  None
+F_measure:  None
+Metrics for class  1
+Precision:  0.916738197425
+Recall   :  0.432213678673
+F_measure:  0.587458745875
+Metrics for class  -1
+Precision:  0.463455149502
+Recall   :  0.482698961938
+F_measure:  0.472881355932
+
+
