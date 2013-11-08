@@ -1,10 +1,6 @@
 # -*- coding: utf-8 -*-
 
 #### Class to provide data and methods to read LIWC dictionary
-#### Corpus reference:
-####          Freitas, C., Motta, E., Milidiú, R., & Cesar, J. (2012).
-####          Vampiro que brilha... rá! Desafios na anotação de opinião em um corpus
-####          de resenhas de livros. Proceedings do XI Encontro de Linguística de Corpus (XI ELC). São Carlos - SP.
 ####
 
 #### Author: Pedro Paulo Balage Filho
